@@ -1,0 +1,141 @@
+body {
+  background-image: url('https://st2.depositphotos.com/1496410/6536/v/950/depositphotos_65366785-stock-illustration-checkered-tablecloth-pattern-rose-endlessly.jpg');
+
+//https://img.freepik.com/free-vector/pattern-background-with-green-checked-plaid-design_1048-6321.jpg?size=338&ext=jpg
+}
+
+
+.nav1{
+    position: absolute;
+    background-color: #69cae7;
+}
+
+.finder{
+    text-align: center;
+    font-size:42px;
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+.welcome{
+  text-align: center;
+    font-size:35px;
+    font-weight: bold;
+    font-family: Georgia;
+    font-style: italic;
+    color:  #000080;
+}
+
+.under{
+    text-align: center;
+    font-size:22px;
+    font-weight: bold;
+    font-family: Courier New;
+  
+}
+
+
+.search{
+    text-align: center;
+     font-style: italic;
+    font-size:27px;
+    text-decoration-style: wavy;
+    font-weight: bold;
+    font-family: Times New Roman;
+    color:#b30047;
+    
+}
+
+.dot{
+    height: 200px;
+    width: 200px;
+    border:  solid rgb(236, 129, 183);
+   // background: rgba(245, 245, 32, 0.548);
+    background-image: url('https://cdn.sallysbakingaddiction.com/wp-content/uploads/2012/08/warm-chocolate-chip-cookies.jpg');
+    background-position: center; 
+    border-radius: 50%;
+    display: inline-block; 
+    margin: 0 2.5em 1em;
+    position: relative;
+  }
+
+.las{
+    height: 200px;
+    width: 200px;
+   border:  solid rgb(236, 129, 183);
+    background-image: url('https://www.averiecooks.com/wp-content/uploads/2017/10/applecheesecake-12.jpg');
+    background-position: center; 
+    border-radius: 50%;
+    display: inline-block; 
+    margin: 0 2.5em 1em;
+    position: relative;
+}
+
+.pizza{
+    height: 200px;
+    width: 200px;
+  border:  solid rgb(236, 129, 183);
+    background-image: url('https://www.mastercook.com/app/Image/20567363/6648136.jpg');
+    background-position: center; 
+    border-radius: 50%;
+    display: inline-block; 
+    margin: 0 2.5em 1em;
+    position: relative;
+}
+
+.cake{
+    height: 200px;
+    width: 200px;
+    border:  solid rgb(236, 129, 183);
+    background-image: url('https://images-gmi-pmc.edge-generalmills.com/c578ade5-b18f-4f16-a3ac-272adfede505.jpg');
+    background-position: center; 
+    border-radius: 50%;
+    display: inline-block; 
+    margin: 0 2.5em 1em;
+    position: relative;
+}
+
+
+  .title{
+    font-size: 25px;
+    position: absolute;
+    margin-top: 30%;
+    margin-right: 40%;
+    margin-left: 25%;
+    margin-bottom: 40%;
+  }
+
+  #first{
+    margin-bottom: 50px;
+    background-color: palegoldenrod;
+    width: 100%;
+    text-align: center;
+  }
+
+  #second{
+    background-color: rgba(69, 178, 221, 0.918);
+    width: 100%;
+    text-align: center;
+   
+  }
+
+  #email{
+    background-color: rgba(141, 195, 245, 0.76);
+    width: 100%;
+    text-align: center;
+      
+  }
+
+ 
+#result{
+  width: 50%;
+  justify-content: center;
+  padding: 30px;
+  flex-direction: row;
+  color:#b30047;
+  font-weight: bold;
+  font-family: Courier New; 
+}
+  
+
+//  text-align: center; color:black; font-weight: bold; font-size:18px; font-family: Courier New; background-color:#e6f9ff;
