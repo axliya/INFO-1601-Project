@@ -1,7 +1,7 @@
 body {
   background-image: url('https://st2.depositphotos.com/1496410/6536/v/950/depositphotos_65366785-stock-illustration-checkered-tablecloth-pattern-rose-endlessly.jpg');
 
-<!--https://img.freepik.com/free-vector/pattern-background-with-green-checked-plaid-design_1048-6321.jpg?size=338&ext=jpg-->
+  /* https://img.freepik.com/free-vector/pattern-background-with-green-checked-plaid-design_1048-6321.jpg?size=338&ext=jpg */
 }
 
 
@@ -50,7 +50,7 @@ body {
     height: 200px;
     width: 200px;
     border:  solid rgb(236, 129, 183);
-   // background: rgba(245, 245, 32, 0.548);
+   /* background: rgba(245, 245, 32, 0.548); */
     background-image: url('https://cdn.sallysbakingaddiction.com/wp-content/uploads/2012/08/warm-chocolate-chip-cookies.jpg');
     background-position: center; 
     border-radius: 50%;
@@ -126,16 +126,30 @@ body {
       
   }
 
- 
-#result{
-  width: 50%;
-  justify-content: center;
-  padding: 30px;
-  flex-direction: row;
-  color:#b30047;
-  font-weight: bold;
-  font-family: Courier New; 
-}
-  
+  #result{
+    width: 100%;
+    padding: 20px;
+    color:#b30047;
+    text-align: center;
+    font-weight: bold;
+    font-family: Courier New; 
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 200px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+   
 
-//  text-align: center; color:black; font-weight: bold; font-size:18px; font-family: Courier New; background-color:#e6f9ff;
+
+
+/* text-align: center; color:black; font-weight: bold; font-size:18px; font-family: Courier New; background-color:#e6f9ff; */
+
+@media only screen and (max-width: 700px) {
+  #result{
+        flex-direction: column;
+   }
+}

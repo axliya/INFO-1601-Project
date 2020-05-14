@@ -38,8 +38,9 @@ async function getRecipe(recipeType){
 function displayRecipe(result){
     result.forEach(function(recipe){
     let result = document.querySelector('#result');
-    result.innerHTML += `<br><br><br><br>
-    <div class="col s6">
+    result.innerHTML += `<div class="container">
+    <div class="row">
+    <div class="col s12 m6 l6">
     <div class="card horizontal">
         <div class="card-image">
             <img src="${recipe.thumbnail}"> 
@@ -50,9 +51,11 @@ function displayRecipe(result){
                 <p>${recipe.ingredients}</p>
             </div>
             <div class="card-action">
-                <a href="${recipe.href}">Link to directions</a>        
+                <a target="_blank" rel="nofollow" href="${recipe.href}">Link to directions</a>        
             </div>
         </div>
+    </div>
+    </div>
     </div>
     </div>`
     })
